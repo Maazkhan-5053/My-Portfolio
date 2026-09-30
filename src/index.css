@@ -8,3 +8,7 @@ body{
 html{
   scroll-behavior: smooth;
 }
+
+#nl-badge-frame {
+    display: none;
+}
