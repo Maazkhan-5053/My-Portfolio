@@ -140,7 +140,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.3 }}
                         className='text-zinc-400 text-lg max-w-xl font-light font-ubuntu leading-relaxed my-2 sm:my-4 px-2 sm:px-0 text-center sm:text-left'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam ex laboriosam provident eveniet iusto? Possimus modi itaque incidunt dolor. 
+                            I’m a Computer Science graduate with 3+ years of experience building responsive websites, modern web applications, and CMS-based solutions. I specialize in React, JavaScript, Tailwind CSS, WordPress, and Shopify, with a focus on clean UI, performance, and great user experiences. 
                     </motion.p>
                     <motion.div
                     initial={{ opacity: 0, y: 20 }}
