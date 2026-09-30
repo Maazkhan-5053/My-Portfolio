@@ -1,7 +1,8 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef, useState } from 'react'
-import { FaCode, FaCog, FaFigma, FaGitAlt, FaGithub, FaJs, FaNodeJs, FaReact, FaWordpress } from 'react-icons/fa';
-import { SiFirebase, SiGraphql, SiMongodb, SiNextdotjs, SiTailwindcss } from 'react-icons/si';
+import { BsGraphUpArrow } from 'react-icons/bs';
+import { FaCloudUploadAlt, FaCode, FaCog, FaFigma, FaGitAlt, FaGithub, FaJs, FaNodeJs, FaReact, FaRobot, FaWix, FaWordpress, FaWordpressSimple } from 'react-icons/fa';
+import { SiFirebase, SiGraphql, SiMongodb, SiNextdotjs, SiShopify, SiTailwindcss, SiWebflow } from 'react-icons/si';
 
 const Skills = () => {
 
@@ -16,19 +17,19 @@ const Skills = () => {
             skills: [
                 { name: 'javaScript', icon: FaJs, color: '#F7DF1F' },
                 { name: 'React', icon: FaReact, color: '#61DAFB' },
-                { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
+                { name: 'Next.js', icon: SiNextdotjs, color: '#ffffff' },
                 { name: 'Tailwind Css', icon: SiTailwindcss, color: '#06B6D4' },
             ],
         },
 
         backend: {
-            name: 'Backend',
+            name: 'CMS & E-Commerce',
             icon: FaCog,
             skills: [
-                { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
-                { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
-                { name: 'Firebase', icon: SiFirebase, color: '#FFCA28' },
-                { name: 'GraphQL', icon: SiGraphql, color: '#E10098' },
+                { name: 'WordPress', icon: FaWordpressSimple, color: '#21759b' },
+                { name: 'Shopify', icon: SiShopify, color: '#96BF48' },
+                { name: 'Webflow', icon: SiWebflow, color: '#146EF5' },
+                { name: 'Wix', icon: FaWix, color: '#000000' },
             ],
         },
 
@@ -36,10 +37,10 @@ const Skills = () => {
             name: 'Tools',
             icon: FaCode,
             skills: [
-                { name: 'Git', icon: FaGitAlt, color: '#F05032' },
-                { name: 'GitHub', icon: FaGithub, color: '#181717' },
+                { name: 'GoHighLevel', icon: BsGraphUpArrow, color: '#F05032' },
+                { name: 'GitHub', icon: FaGithub, color: '#ffffff' },
                 { name: 'Figma', icon: FaFigma, color: '#F24E1E' },
-                { name: 'WordPress', icon: FaWordpress, color: '#21759B' },
+                { name: 'Hosting & Deployment', icon: FaCloudUploadAlt, color: '#21759B' },
             ],
         },
     };

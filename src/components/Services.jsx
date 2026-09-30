@@ -1,6 +1,8 @@
 import { useInView, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react"
-import { FaChartLine, FaCode, FaMobileAlt, FaPalette, FaPallet, FaServer, FaShoppingCart } from "react-icons/fa";
+import { FaChartLine, FaCode, FaMobileAlt, FaPalette, FaPallet, FaReact, FaServer, FaShoppingCart, FaWordpress } from "react-icons/fa";
+import { FaCartFlatbed, FaCartShopping, FaStore } from "react-icons/fa6";
+import { MdDashboardCustomize } from "react-icons/md";
 
 
 const Services = () => {
@@ -18,43 +20,43 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: 'Web Development',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+      title: 'Front-End Development',
+      desc: 'Build modern, responsive, and interactive web interfaces using React, JavaScript, Tailwind CSS, HTML5, and CSS3.',
       icon: FaCode,
       color: '#F7DF1E',
     },
     {
       id: 2,
-      title: 'Web Development',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-      icon: FaPalette,
-      color: '#FF6B6B',
+      title: 'React Development',
+      desc: 'Develop scalable and component-based React applications with clean architecture, reusable components, animations, and responsive layouts.',
+      icon: FaReact,
+      color: '#61DBFB',
     },
     {
       id: 3,
-      title: 'Web Development',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-      icon: FaMobileAlt,
-      color: '#4ECDC4',
+      title: 'E-Commerce Development',
+      desc: 'Build and customize e-commerce websites using WooCommerce and Shopify, including product systems, custom functionality, responsive storefronts, and integrations.',
+      icon: FaStore,
+      color: '#96BF48',
     },
     {
       id: 4,
-      title: 'Web Development',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-      icon: FaServer,
-      color: '#45B7D1',
+      title: 'WordPress Development',
+      desc: 'Create and customize WordPress websites, including custom themes, plugin integrations, Elementor builds, WooCommerce, and performance optimization.',
+      icon: FaWordpress,
+      color: '#0073AA',
     },
     {
       id: 5,
-      title: 'Web Development',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-      icon: FaShoppingCart,
-      color: '#F9CA24',
+      title: 'CMS Development',
+      desc: 'Develop and maintain websites using WordPress, Shopify, Wix, Squarespace, Webflow, and other CMS platforms with a focus on usability and performance.',
+      icon: MdDashboardCustomize,
+      color: '#F05032',
     },
     {
       id: 6,
-      title: 'Web Development',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+      title: 'Automation & AI Solutions',
+      desc: 'Build business automations, GoHighLevel workflows, API integrations, and AI-powered chatbot solutions to streamline repetitive business processes.',
       icon: FaChartLine,
       color: '#6C5CE7',
     },
