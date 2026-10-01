@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from 'react';
-import work1 from '../assets/work1.png'
-import work4 from '../assets/work4.png'
-import work5 from '../assets/work5.png'
+import work1 from '../assets/work1.webp'
+import work4 from '../assets/work4.webp'
+import work5 from '../assets/work5.jpg'
 import { useInView, motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
@@ -20,7 +20,7 @@ const PROJECTS = [
         id: 2,
         title: 'The Audio People',
         desc: 'A WooCommerce e-commerce website for an audio equipment business, including product management, brand systems, filtering, custom pricing functionality, pre-order workflows, and responsive shopping experiences.',
-        image: work5,
+        image: work4,
         technologies: ['WooCommerce', 'PHP', 'JavaScript'],
         liveDemo: 'https://theaudiopeople.com.vn/',
         github: '#',

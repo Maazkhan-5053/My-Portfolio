@@ -78,8 +78,8 @@ const Contact = () => {
         {
             icon: FaEnvelope,
             label: 'Email Me',
-            value: 'Maaz@sampledomain.com',
-            link: 'mailto:Maaz@sampledomain.com',
+            value: 'Maaz45139@gmail.com',
+            link: 'mailto:maaz45139@gmail.com',
         },
         {
             icon: FaPhone,
