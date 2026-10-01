@@ -57,7 +57,7 @@ const PROJECTS = [
     {
         id: 6,
         title: 'Red Deer Leads',
-        desc: 'A WordPress website developed with custom post types to organize and manage structured business content efficiently. Implemented responsive layouts, custom content sections, dynamic templates, and user-friendly navigation tailored to the client’s requirements.',
+        desc: 'A WordPress website developed with custom post types to organize and manage structured business content efficiently. Implemented responsive layouts, custom content sections and dynamic templates.',
         image: work1,
         technologies: ['WordPress', 'Custom Post Types', 'PHP'],
         liveDemo: 'https://reddeerleads.com/',
