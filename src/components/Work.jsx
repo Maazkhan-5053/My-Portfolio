@@ -4,6 +4,7 @@ import work3 from '../assets/work3.webp'
 import work4 from '../assets/work4.webp'
 import work5 from '../assets/work5.webp'
 import work6 from '../assets/work6.webp'
+import work7 from '../assets/work7.webp'
 import { useInView, motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
@@ -58,7 +59,7 @@ const PROJECTS = [
         id: 6,
         title: 'Red Deer Leads',
         desc: 'A WordPress website developed with custom post types to organize and manage structured business content efficiently. Implemented responsive layouts, custom content sections and dynamic templates.',
-        image: work1,
+        image: work7,
         technologies: ['WordPress', 'Custom Post Types', 'PHP'],
         liveDemo: 'https://reddeerleads.com/',
         github: '#'
