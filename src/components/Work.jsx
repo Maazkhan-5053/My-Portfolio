@@ -29,7 +29,7 @@ const PROJECTS = [
     {
         id: 3,
         title: 'Pace Motor Lines',
-        desc: 'A custom WordPress website developed for a transportation and logistics company. Built a responsive custom theme with structured service sections, business-focused layouts, and user-friendly navigation tailored to the client’s requirements.',
+        desc: 'A custom WordPress theme developed for a transportation and logistics company. Built responsive layouts, structured service sections, business-focused pages, and user-friendly navigation tailored to the client’s requirements.',
         image: work3,
         technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
          liveDemo: 'https://pacomotorlines.com/',
