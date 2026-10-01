@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 import work1 from '../assets/work1.webp'
 import work3 from '../assets/work3.webp'
 import work4 from '../assets/work4.webp'
-import work5 from '../assets/work5.jpg'
+import work5 from '../assets/work5.webp'
 import { useInView, motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
@@ -22,7 +22,7 @@ const PROJECTS = [
         title: 'The Audio People',
         desc: 'A WooCommerce e-commerce website for an audio equipment business, including product management, brand systems, filtering, custom pricing functionality, pre-order workflows, and responsive shopping experiences.',
         image: work4,
-        technologies: ['WooCommerce', 'PHP', 'JavaScript'],
+        technologies: ['WooCommerce', 'PHP', 'JavaScript', 'ACF'],
         liveDemo: 'https://theaudiopeople.com.vn/',
         github: '#',
     },
@@ -31,16 +31,16 @@ const PROJECTS = [
         title: 'Pace Motor Lines',
         desc: 'A custom WordPress website developed for a transportation and logistics company. Built a responsive custom theme with structured service sections, business-focused layouts, and user-friendly navigation tailored to the client’s requirements.',
         image: work3,
-        technologies: ['WordPress', 'PHP', 'HTML5', 'Bootstrap'],
+        technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
          liveDemo: 'https://pacomotorlines.com/',
         github: '#',
     },
     {
         id: 4,
-        title: 'E-Commerce Platform',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        image: work1,
-        technologies: ['React', 'Node.js', 'MongoDB'],
+        title: 'Linzer Truck Lines',
+        desc: 'Developed a custom WordPress theme for a transportation and trucking company, creating responsive layouts, service sections, business information pages, contact forms, and user-friendly navigation. Customized the website structure and functionality to meet the client’s business requirements.',
+        image: work5,
+        technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
     },
     {
         id: 5,
