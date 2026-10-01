@@ -7,9 +7,8 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     const socialLinks = [
-        { icon: FaGithub, link: '#', label: 'GitHub' },
-        { icon: FaLinkedin, link: '#', label: 'LinkedIn' },
-        { icon: FaTwitter, link: '#', label: 'Twitter' },
+        { icon: FaGithub, link: 'https://github.com/Maazkhan-5053', label: 'GitHub' },
+        { icon: FaLinkedin, link: 'https://www.linkedin.com/in/muhammad-maaz-khan-484587204', label: 'LinkedIn' },
     ];
 
     const navLinks = [
