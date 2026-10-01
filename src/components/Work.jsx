@@ -39,7 +39,7 @@ const PROJECTS = [
     {
         id: 4,
         title: 'Linzer Truck Lines',
-        desc: 'Developed a custom WordPress theme for a transportation and trucking company, creating responsive layouts, service sections, business information pages, contact forms, and user-friendly navigation. Customized the website structure and functionality to meet the client’s business requirements.',
+        desc: 'Developed a custom WordPress theme for a transportation and trucking company, creating responsive layouts and user-friendly navigation. Customized the website structure and functionality to meet the client’s business requirements.',
         image: work5,
         technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
          liveDemo: 'https://linzertrucklines.com/',
