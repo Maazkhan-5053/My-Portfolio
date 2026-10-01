@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from 'react';
 import work1 from '../assets/work1.webp'
+import work3 from '../assets/work3.webp'
 import work4 from '../assets/work4.webp'
 import work5 from '../assets/work5.jpg'
 import { useInView, motion } from 'framer-motion';
@@ -27,10 +28,12 @@ const PROJECTS = [
     },
     {
         id: 3,
-        title: 'E-Commerce Platform',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        image: work1,
-        technologies: ['React', 'Node.js', 'MongoDB'],
+        title: 'Pace Motor Lines',
+        desc: 'A custom WordPress website developed for a transportation and logistics company. Built a responsive custom theme with structured service sections, business-focused layouts, and user-friendly navigation tailored to the client’s requirements.',
+        image: work3,
+        technologies: ['WordPress', 'PHP', 'HTML5', 'Bootstrap'],
+         liveDemo: 'https://pacomotorlines.com/',
+        github: '#',
     },
     {
         id: 4,
