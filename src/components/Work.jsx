@@ -58,7 +58,7 @@ const PROJECTS = [
     {
         id: 6,
         title: 'Raptor Rooftop Rentals',
-        desc: 'A WordPress website developed for a premium outdoor vehicle and rooftop camping rental company. Implemented responsive layouts, vehicle fleet pages, adventure and trip sections, booking-focused functionality, custom content sections, and user-friendly navigation tailored to the client’s requirements.',
+        desc: 'A WordPress website developed for a premium outdoor vehicle and rooftop camping rental company. Implemented responsive layouts, vehicle fleet pages, adventure and trip sections, booking-focused functionality and custom content sections.',
         image: work8,
         technologies: ['WordPress', 'Custom Post Types', 'PHP'],
         liveDemo: 'https://raptorrooftoprentals.com/',
