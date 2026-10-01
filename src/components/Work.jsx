@@ -3,6 +3,7 @@ import work1 from '../assets/work1.webp'
 import work3 from '../assets/work3.webp'
 import work4 from '../assets/work4.webp'
 import work5 from '../assets/work5.webp'
+import work6 from '../assets/work6.webp'
 import { useInView, motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
@@ -46,10 +47,12 @@ const PROJECTS = [
     },
     {
         id: 5,
-        title: 'E-Commerce Platform',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        image: work1,
-        technologies: ['React', 'Node.js', 'MongoDB'],
+        title: 'Katahdin Law',
+        desc: 'A WordPress website built with Elementor Pro for a law firm, featuring responsive layouts, structured practice area sections, attorney information, service-focused pages, and clear contact navigation tailored to the firm’s requirements.',
+        image: work6,
+        technologies: ['WordPress', 'Elementor Pro', 'CSS3'],
+        liveDemo: 'https://katahdin-law.com/',
+        github: '#'
     },
     {
         id: 6,
