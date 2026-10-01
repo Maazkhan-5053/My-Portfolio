@@ -56,10 +56,12 @@ const PROJECTS = [
     },
     {
         id: 6,
-        title: 'E-Commerce Platform',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        title: 'Red Deer Leads',
+        desc: 'A WordPress website developed with custom post types to organize and manage structured business content efficiently. Implemented responsive layouts, custom content sections, dynamic templates, and user-friendly navigation tailored to the client’s requirements.',
         image: work1,
-        technologies: ['React', 'Node.js', 'MongoDB'],
+        technologies: ['WordPress', 'Custom Post Types', 'PHP'],
+        liveDemo: 'https://reddeerleads.com/',
+        github: '#'
     },
 ];
 
