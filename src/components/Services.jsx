@@ -154,7 +154,7 @@ const Services = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.5 }}
             className="text-zinc-400 text-sm sm:text-lg max-w-2xl mx-auto mt-5 sm:mt-6 px-2 font-light leading-relaxed">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            I create modern, responsive websites and web applications with clean UI, reliable functionality, and a focus on performance and user experience.
           </motion.p>
         </motion.div>
 

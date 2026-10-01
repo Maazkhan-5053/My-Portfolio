@@ -90,7 +90,7 @@ const Contact = () => {
         {
             icon: FaMapMarkerAlt,
             label: 'Location',
-            value: 'Islamabad',
+            value: 'Islamabad, Pakistan',
             link: '#',
         },
     ];
@@ -134,7 +134,7 @@ const Contact = () => {
             ref={ref}>
 
             {/* Background: subtle grid + glows */}
-            <div
+            {/* <div
                 className="absolute inset-0 opacity-[0.04] pointer-events-none"
                 style={{
                     backgroundImage:
@@ -142,7 +142,7 @@ const Contact = () => {
                     backgroundSize: '48px 48px',
                     maskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
                     WebkitMaskImage: 'radial-gradient(ellipse at center, black 30%, transparent 75%)',
-                }} />
+                }} /> */}
             <div className="absolute top-1/4 -left-20 w-80 h-80 bg-yellow-400/20 rounded-full blur-3xl pointer-events-none" />
             <div className="absolute bottom-1/4 -right-20 w-96 h-80 bg-yellow-400/20 rounded-full blur-3xl pointer-events-none" />
 
