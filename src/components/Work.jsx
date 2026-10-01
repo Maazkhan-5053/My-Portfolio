@@ -34,7 +34,7 @@ const PROJECTS = [
         desc: 'A custom WordPress theme developed for a transportation and logistics company. Built responsive layouts, structured service sections, business-focused pages, and user-friendly navigation tailored to the client’s requirements.',
         image: work3,
         technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
-         liveDemo: 'https://pacomotorlines.com/',
+         liveDemo: 'https://pacemotorlines.com/',
         github: '#',
     },
     {
