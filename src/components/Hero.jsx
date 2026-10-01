@@ -149,12 +149,12 @@ const Hero = () => {
                         className='flex flex-wrap gap-3 sm:gap-4 mt-1 sm:mt-2 justify-center lg:justify-start'>
 
                             <a
-                            href="#Contact"
+                            href="#contact"
                             className='px-8 py-3.5 bg-yellow-400 text-zinc-950 font-bold rounded-full hover:scale-105 font-ubuntu text-xs sm:text-sm transition-all duration-300'>
                                 Contact Me
                             </a>
                             <a
-                            href="#Contact"
+                            href="#work"
                             className='px-8 py-3.5 border-2 border-yellow-400/80 text-yellow-400 font-semibold rounded-full hover:scale-105 font-ubuntu text-xs sm:text-sm transition-all duration-300'>
                                 My Work
                             </a>
