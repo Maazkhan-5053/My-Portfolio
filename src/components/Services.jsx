@@ -210,9 +210,12 @@ const Services = () => {
                     <div
                       className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-yellow-400 group-hover:w-2/3 transition-all duration-300 rounded-full" />
                     <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <a className="text-yellow-400 text-xs sm:text-sm font-semibold" href="#contact">
-                          Learn More
-                        </a>
+                      <a href="#contact"
+                        onPointerDown={(e) => e.stopPropagation()}
+                        onClick={(e) => e.stopPropagation()}
+                        className="text-yellow-400 text-xs sm:text-sm font-semibold">
+                        Learn More
+                      </a>
                     </div>
 
                   </div>
@@ -222,21 +225,20 @@ const Services = () => {
             })}
           </motion.div>
         </div>
-             <div className='flex justify-center items-center gap-2 mt-6'>
-                        {Array.from({ length: totalPages }).map((_, index) => (
-                            <button
-                            key={index}
-                            onClick={() => setCurrentIndex(Math.min(index * itemsPerPage, maxIndex))}
-                            className={`h-2 rounded-full transition-all duration-300 
-                            ${
-                                Math.floor(currentIndex / itemsPerPage) === index 
-                                ? 'w-8 bg-yellow-400'
-                                : 'w-2 bg-zinc-600 hover:bg-zinc-400'
-                            }`}>
+        <div className='flex justify-center items-center gap-2 mt-6'>
+          {Array.from({ length: totalPages }).map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentIndex(Math.min(index * itemsPerPage, maxIndex))}
+              className={`h-2 rounded-full transition-all duration-300 
+                            ${Math.floor(currentIndex / itemsPerPage) === index
+                  ? 'w-8 bg-yellow-400'
+                  : 'w-2 bg-zinc-600 hover:bg-zinc-400'
+                }`}>
 
-                            </button>
-                        ))}
-                    </div>
+            </button>
+          ))}
+        </div>
       </div>
 
     </section>
