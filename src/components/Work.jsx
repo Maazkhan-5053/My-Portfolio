@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from 'react';
 import work1 from '../assets/work1.png'
+import work4 from '../assets/work4.png'
 import { useInView, motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
@@ -7,17 +8,21 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 const PROJECTS = [
     {
         id: 1,
-        title: 'E-Commerce Platform',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+        title: 'Auto Service POS',
+        desc: 'A modern React-based point-of-sale application designed for automotive service businesses. The application manages customers, appointments, services, and other day-to-day workshop operations through a responsive interface.',
         image: work1,
-        technologies: ['React', 'Node.js', 'MongoDB'],
+        technologies: ['React.js', 'JavaScript', 'Tailwind CSS'],
+        liveDemo: 'https://auto-service-pos.netlify.app/',
+        github: 'https://github.com/Maazkhan-5053/auto-service-pos',
     },
     {
         id: 2,
-        title: 'E-Commerce Platform',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        image: work1,
-        technologies: ['React', 'Node.js', 'MongoDB'],
+        title: 'The Audio People',
+        desc: 'A WooCommerce e-commerce website for an audio equipment business, including product management, brand systems, filtering, custom pricing functionality, pre-order workflows, and responsive shopping experiences.',
+        image: work4,
+        technologies: ['WordPress', 'WooCommerce', 'PHP', 'JavaScript'],
+        liveDemo: 'https://theaudiopeople.com.vn/',
+        github: '#',
     },
     {
         id: 3,
@@ -212,11 +217,11 @@ const Work = () => {
                                     <div className='absolute inset-0 bg-linear-to-t from-zinc-950 via-transparent to-transparent opacity-60'>
                                     </div>
                                     <div className='absolute top-3 right-3 flex gap-2'>
-                                        <a href="#" target='_blank' rel='noopener noreferrer' aria-label='GitHub' className='p-2 bg-zinc-900/80 backdrop-blur-sm rounded-full hover:bg-yellow-400 hover:text-zinc-950 transition-all duration-300'
+                                        <a href={project.github} target='_blank' rel='noopener noreferrer' aria-label='GitHub' className='p-2 bg-zinc-900/80 backdrop-blur-sm rounded-full hover:bg-yellow-400 hover:text-zinc-950 transition-all duration-300'
                                         onPointerDown={ (e) => e.stopPropagation()}>
                                             <FaGithub className='w-4 h-4'/>
                                         </a>
-                                        <a href="#" target='_blank' rel='noopener noreferrer' aria-label='Live demo' className='p-2 bg-zinc-900/80 backdrop-blur-sm rounded-full hover:bg-yellow-400 hover:text-zinc-950 transition-all duration-300'
+                                        <a href={project.liveDemo} target='_blank' rel='noopener noreferrer' aria-label='Live demo' className='p-2 bg-zinc-900/80 backdrop-blur-sm rounded-full hover:bg-yellow-400 hover:text-zinc-950 transition-all duration-300'
                                         onPointerDown={ (e) => e.stopPropagation()}>
                                             <FaExternalLinkAlt className='w-4 h-4'/>
                                         </a>
