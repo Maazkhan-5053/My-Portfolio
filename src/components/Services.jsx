@@ -210,9 +210,9 @@ const Services = () => {
                     <div
                       className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-yellow-400 group-hover:w-2/3 transition-all duration-300 rounded-full" />
                     <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <span className="text-yellow-400 text-xs sm:text-sm font-semibold">
+                        <a className="text-yellow-400 text-xs sm:text-sm font-semibold" href="#contact">
                           Learn More
-                        </span>
+                        </a>
                     </div>
 
                   </div>
