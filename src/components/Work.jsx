@@ -4,7 +4,7 @@ import work3 from '../assets/work3.webp'
 import work4 from '../assets/work4.webp'
 import work5 from '../assets/work5.webp'
 import work6 from '../assets/work6.webp'
-import work7 from '../assets/work7.webp'
+import work8 from '../assets/work8.webp'
 import { useInView, motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
@@ -57,11 +57,11 @@ const PROJECTS = [
     },
     {
         id: 6,
-        title: 'Red Deer Leads',
-        desc: 'A WordPress website developed with custom post types to organize and manage structured business content efficiently. Implemented responsive layouts, custom content sections and dynamic templates.',
-        image: work7,
+        title: 'Raptor Rooftop Rentals',
+        desc: 'A WordPress website developed for a premium outdoor vehicle and rooftop camping rental company. Implemented responsive layouts, vehicle fleet pages, adventure and trip sections, booking-focused functionality, custom content sections, and user-friendly navigation tailored to the client’s requirements.',
+        image: work8,
         technologies: ['WordPress', 'Custom Post Types', 'PHP'],
-        liveDemo: 'https://reddeerleads.com/',
+        liveDemo: 'https://raptorrooftoprentals.com/',
         github: '#'
     },
 ];
