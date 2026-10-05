@@ -269,7 +269,7 @@ const Work = () => {
                 className='flex gap-6'
                 style={{
                     transform: `translateX(calc(-${translatePercentage}% - ${translateGap}px - ${dragOffset}px))`,
-                    transition: isDragging ? 'none' : 'transform 0.8s ease-in-out'
+                    transition: isDragging ? 'none' : 'transform 0.6s ease-in-out'
                 }}>
                     {PROJECTS.map((project, index) => (
                          <motion.div
