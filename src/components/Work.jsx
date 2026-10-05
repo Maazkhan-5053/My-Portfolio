@@ -9,6 +9,8 @@ import work10 from '../assets/work10.webp'
 import work11 from '../assets/work11.webp'
 import work12 from '../assets/work12.webp'
 import work13 from '../assets/work13.webp'
+import work15 from '../assets/work15.webp'
+import work16 from '../assets/work16.webp'
 import { useInView, motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
@@ -61,6 +63,15 @@ const PROJECTS = [
     },
     {
         id: 6,
+        title: 'Runbiz',
+        desc: 'A professional Wix website developed for a managed IT services company, featuring service-focused sections, client testimonials, business statistics, partner showcases, and responsive layouts designed to build trust and generate consultations.',
+        image: work16,
+        technologies: ['Wix', 'Wix Editor', 'Responsive Design'],
+         liveDemo: 'https://www.run.biz/',
+        github: '#'
+    },
+    {
+        id: 7,
         title: 'Fresa',
         desc: 'A custom Shopify theme developed for a fashion and clothing brand, featuring a modern, responsive storefront with tailored product sections, collection layouts, and a branded shopping experience built to the client’s requirements.',
         image: work13,
@@ -69,25 +80,7 @@ const PROJECTS = [
         github: '#'
     },
     {
-        id: 7,
-        title: 'Nicole Strickland',
-        desc: 'A custom WordPress website developed for an author, paranormal researcher, speaker, and podcast host. Built with dedicated sections for books, podcasts, events, speaking engagements, media, and blog content, with a responsive and engaging user experience.',
-        image: work11,
-        technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
-         liveDemo: 'https://nicoledstrickland.com/',
-        github: '#'
-    },
-    {
         id: 8,
-        title: 'Linzer Truck Lines',
-        desc: 'Developed a custom WordPress theme for a transportation and trucking company, creating responsive layouts and user-friendly navigation. Customized the website structure and functionality to meet the client’s business requirements.',
-        image: work5,
-        technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
-         liveDemo: 'https://linzertrucklines.com/',
-        github: '#'
-    },
-    {
-        id: 9,
         title: 'Cloud Trek Travel',
         desc: 'A custom WordPress theme developed for a travel agency. Built with responsive layouts, structured service sections, destination-focused pages, and user-friendly navigation tailored to the client’s requirements.',
         image: work9,
@@ -96,7 +89,34 @@ const PROJECTS = [
         github: '#'
     },
     {
+        id: 9,
+        title: 'Linzer Truck Lines',
+        desc: 'Developed a custom WordPress theme for a transportation and trucking company, creating responsive layouts and user-friendly navigation. Customized the website structure and functionality to meet the client’s business requirements.',
+        image: work5,
+        technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
+         liveDemo: 'https://linzertrucklines.com/',
+        github: '#'
+    },
+    {
         id: 10,
+        title: 'Royal Flush Advertising',
+        desc: 'A professional Wix website developed for a full-service marketing and advertising agency, featuring branding, advertising, website design, publications, and service-focused sections with a responsive layout and engaging visual presentation.',
+        image: work15,
+        technologies: ['Wix', 'Wix Editor', 'Responsive Design'],
+         liveDemo: 'https://www.royalflushadvertising.com/',
+        github: '#'
+    },
+    {
+        id: 11,
+        title: 'Nicole Strickland',
+        desc: 'A custom WordPress website developed for an author, paranormal researcher, speaker, and podcast host. Built with dedicated sections for books, podcasts, events, speaking engagements, media, and blog content, with a responsive and engaging user experience.',
+        image: work11,
+        technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
+         liveDemo: 'https://nicoledstrickland.com/',
+        github: '#'
+    },
+    {
+        id: 12,
         title: 'Raptor Rooftop Rentals',
         desc: 'A WordPress website developed for a premium outdoor vehicle and rooftop camping rental company. Implemented responsive layouts, vehicle fleet pages, adventure and trip sections, booking-focused functionality and custom content sections.',
         image: work8,
