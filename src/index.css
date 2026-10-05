@@ -12,3 +12,28 @@ html{
 #nl-badge-frame {
     display: none;
 }
+
+/* ---------- Day mode (lamp off). Night mode is the original dark design. ----------
+   Tailwind v4 utilities read these CSS variables, so remapping the palette
+   re-themes every component without editing their classes. */
+html { background-color: var(--color-zinc-950); }
+
+html[data-theme="light"] {
+  color-scheme: light;
+  --color-white: #1a1610;      /* text-white  -> ink  */
+  --color-zinc-950: #f8f5ee;   /* page bg     -> paper */
+  --color-zinc-900: #f0ebe0;
+  --color-zinc-800: #e4dece;
+  --color-zinc-700: #d0c8b4;
+  --color-zinc-600: #a69e8b;
+  --color-zinc-500: #7c7565;
+  --color-zinc-400: #5a5446;
+  --color-zinc-300: #3f3a30;
+
+}
+html[data-theme="light"] .text-zinc-950 { color: #0c0a09; } /* dark text on yellow buttons */
+
+/* smooth fade, only while the theme is changing */
+html.theme-anim, html.theme-anim *, html.theme-anim *::before, html.theme-anim *::after {
+  transition: background-color .6s ease, color .6s ease, border-color .6s ease, fill .6s ease, stroke .6s ease !important;
+}

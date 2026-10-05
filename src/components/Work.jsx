@@ -269,7 +269,7 @@ const Work = () => {
                 className='flex gap-6'
                 style={{
                     transform: `translateX(calc(-${translatePercentage}% - ${translateGap}px - ${dragOffset}px))`,
-                    transition: isDragging ? 'none' : 'transform 0.5s ease-in-out'
+                    transition: isDragging ? 'none' : 'transform 0.8s ease-in-out'
                 }}>
                     {PROJECTS.map((project, index) => (
                          <motion.div
@@ -284,7 +284,7 @@ const Work = () => {
                             <div className='bg-zinc-800/30 backdrop-blur-sm rounded-xl sm:rounded-2xl overflow-hidden border border-zinc-700/30 hover:border-yellow-400/50 shadow-lg hover:shadow-lg hover:shadow-yellow-400/10 transition-all duration-300 h-full'>
 
                                 <div className='relative overflow-hidden h-40 sm:h-40 lg:h-44'>
-                                    <img src={project.image} alt={project.title} className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-400 pointer-events-none' draggable='false' />
+                                    <img src={project.image} alt={project.title} loading='lazy' decoding='async' className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-400 pointer-events-none' draggable='false' />
 
                                     <div className='absolute inset-0 bg-linear-to-t from-zinc-950 via-transparent to-transparent opacity-60'>
                                     </div>

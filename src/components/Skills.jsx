@@ -17,7 +17,7 @@ const Skills = () => {
             skills: [
                 { name: 'javaScript', icon: FaJs, color: '#F7DF1F' },
                 { name: 'React', icon: FaReact, color: '#61DAFB' },
-                { name: 'Next.js', icon: SiNextdotjs, color: '#ffffff' },
+                { name: 'Next.js', icon: SiNextdotjs, color: 'currentColor' },
                 { name: 'Tailwind Css', icon: SiTailwindcss, color: '#06B6D4' },
             ],
         },
@@ -38,7 +38,7 @@ const Skills = () => {
             icon: FaCode,
             skills: [
                 { name: 'GoHighLevel', icon: BsGraphUpArrow, color: '#F05032' },
-                { name: 'GitHub', icon: FaGithub, color: '#ffffff' },
+                { name: 'GitHub', icon: FaGithub, color: 'currentColor' },
                 { name: 'Figma', icon: FaFigma, color: '#F24E1E' },
                 { name: 'Hosting & Deployment', icon: FaCloudUploadAlt, color: '#21759B' },
             ],
