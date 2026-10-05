@@ -3,8 +3,12 @@ import work1 from '../assets/work1.webp'
 import work3 from '../assets/work3.webp'
 import work4 from '../assets/work4.webp'
 import work5 from '../assets/work5.webp'
-import work6 from '../assets/work6.webp'
 import work8 from '../assets/work8.webp'
+import work9 from '../assets/work9.webp'
+import work10 from '../assets/work10.webp'
+import work11 from '../assets/work11.webp'
+import work12 from '../assets/work12.webp'
+import work13 from '../assets/work13.webp'
 import { useInView, motion } from 'framer-motion';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
@@ -30,6 +34,15 @@ const PROJECTS = [
     },
     {
         id: 3,
+        title: 'Newy',
+        desc: 'A modern Shopify e-commerce website developed for a wellness brand, featuring a product-focused layout, responsive sections, customer testimonials, educational content, and a streamlined shopping experience tailored to the brand.',
+        image: work10,
+        technologies: ['Shopify', 'Liquid', 'HTML5', 'CSS3'],
+         liveDemo: 'https://getnewy.com/',
+        github: '#',
+    },
+    {
+        id: 4,
         title: 'Pace Motor Lines',
         desc: 'A custom WordPress theme developed for a transportation and logistics company. Built responsive layouts, structured service sections, business-focused pages, and user-friendly navigation tailored to the client’s requirements.',
         image: work3,
@@ -38,7 +51,34 @@ const PROJECTS = [
         github: '#',
     },
     {
-        id: 4,
+        id: 5,
+        title: 'Live Safe New England',
+        desc: 'A custom Shopify theme developed for a security and safety brand, featuring structured product and service sections, responsive layouts, and a tailored e-commerce experience built around the client’s requirements.',
+        image: work12,
+        technologies: ['Shopify', 'Liquid', 'HTML5', 'CSS3'],
+         liveDemo: 'https://livesafene.com/',
+        github: '#'
+    },
+    {
+        id: 6,
+        title: 'Fresa',
+        desc: 'A custom Shopify theme developed for a fashion and clothing brand, featuring a modern, responsive storefront with tailored product sections, collection layouts, and a branded shopping experience built to the client’s requirements.',
+        image: work13,
+        technologies: ['Shopify', 'Liquid', 'HTML5', 'CSS3'],
+         liveDemo: 'https://fresa.com/',
+        github: '#'
+    },
+    {
+        id: 7,
+        title: 'Nicole Strickland',
+        desc: 'A custom WordPress website developed for an author, paranormal researcher, speaker, and podcast host. Built with dedicated sections for books, podcasts, events, speaking engagements, media, and blog content, with a responsive and engaging user experience.',
+        image: work11,
+        technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
+         liveDemo: 'https://nicoledstrickland.com/',
+        github: '#'
+    },
+    {
+        id: 8,
         title: 'Linzer Truck Lines',
         desc: 'Developed a custom WordPress theme for a transportation and trucking company, creating responsive layouts and user-friendly navigation. Customized the website structure and functionality to meet the client’s business requirements.',
         image: work5,
@@ -47,16 +87,16 @@ const PROJECTS = [
         github: '#'
     },
     {
-        id: 5,
-        title: 'Katahdin Law',
-        desc: 'A WordPress website built with Elementor Pro for a law firm, featuring responsive layouts, structured practice area sections, attorney information, service-focused pages, and clear contact navigation tailored to the firm’s requirements.',
-        image: work6,
-        technologies: ['WordPress', 'Elementor Pro', 'CSS3'],
-        liveDemo: 'https://katahdin-law.com/',
+        id: 9,
+        title: 'Cloud Trek Travel',
+        desc: 'A custom WordPress theme developed for a travel agency. Built with responsive layouts, structured service sections, destination-focused pages, and user-friendly navigation tailored to the client’s requirements.',
+        image: work9,
+        technologies: ['PHP', 'HTML5', 'Bootstrap', 'ACF'],
+        liveDemo: 'https://cloudtrektravel.com/',
         github: '#'
     },
     {
-        id: 6,
+        id: 10,
         title: 'Raptor Rooftop Rentals',
         desc: 'A WordPress website developed for a premium outdoor vehicle and rooftop camping rental company. Implemented responsive layouts, vehicle fleet pages, adventure and trip sections, booking-focused functionality and custom content sections.',
         image: work8,
