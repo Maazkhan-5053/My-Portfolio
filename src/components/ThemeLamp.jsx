@@ -216,7 +216,7 @@ const ThemeLamp = ({ theme, onToggle, sound = true }) => {
                     <circle cx={s.hx} cy={hy + 6} r='18' fill='transparent' />
                     <circle cx={s.hx} cy={hy + 6} r='13' fill='none' strokeWidth='2'
                         className='stroke-yellow-400 opacity-0 group-focus-visible:opacity-100' />
-                    <rect x={s.hx - 3} y={hy - 2} width='6' height='16' rx='3' style={{ fill: 'var(--color-yellow-400)' }} />
+                    <rect x={s.hx - 3} y={hy - 2} width='6' height='16' rx='3' className='fill-yellow-400 max-[440px]:fill-black' />
                 </g>
             </svg>
         </div>
