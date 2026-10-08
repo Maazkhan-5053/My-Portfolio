@@ -90,7 +90,7 @@ const Contact = () => {
         {
             icon: FaMapMarkerAlt,
             label: 'Location',
-            value: 'Islamabad, Pakistan',
+            value: 'Pakistan',
             link: '#',
         },
     ];
