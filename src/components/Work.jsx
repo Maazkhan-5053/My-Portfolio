@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
-import work01 from '../assets/work1.webp'
+import work01 from '../assets/work01.webp'
 import work3 from '../assets/work3.webp'
 import work4 from '../assets/work4.webp'
 import work5 from '../assets/work5.webp'
