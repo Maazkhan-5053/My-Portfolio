@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
-import work1 from '../assets/work1.webp'
+import work01 from '../assets/work1.webp'
 import work3 from '../assets/work3.webp'
 import work4 from '../assets/work4.webp'
 import work5 from '../assets/work5.webp'
@@ -18,12 +18,12 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 const PROJECTS = [
     {
         id: 1,
-        title: 'Auto Service POS',
-        desc: 'A modern React-based point-of-sale application designed for automotive service businesses. The application manages customers, appointments, services, and other day-to-day workshop operations through a responsive interface.',
-        image: work1,
-        technologies: ['React.js', 'JavaScript', 'Tailwind CSS'],
-        liveDemo: 'https://auto-service-pos.netlify.app/',
-        github: 'https://github.com/Maazkhan-5053/auto-service-pos',
+        title: 'TIA-Verse',
+        desc: 'A modern web platform built with Next.js. Collaborated with the product development team to develop reusable frontend components, implement responsive UI layouts, and contribute to the overall user experience.',
+        image: work01,
+        technologies: ['Next.js', 'React.js', 'JavaScript', 'Tailwind CSS'],
+        liveDemo: 'https://tia-verse.com/',
+        github: '#',
     },
     {
         id: 2,
@@ -40,7 +40,7 @@ const PROJECTS = [
         desc: 'A modern Shopify e-commerce website developed for a wellness brand, featuring a product-focused layout, responsive sections, customer testimonials, educational content, and a streamlined shopping experience tailored to the brand.',
         image: work10,
         technologies: ['Shopify', 'Liquid', 'HTML5', 'CSS3'],
-         liveDemo: 'https://getnewy.com/',
+        liveDemo: 'https://getnewy.com/',
         github: '#',
     },
     {
@@ -49,7 +49,7 @@ const PROJECTS = [
         desc: 'A custom WordPress theme developed for a transportation and logistics company. Built responsive layouts, structured service sections, business-focused pages, and user-friendly navigation tailored to the client’s requirements.',
         image: work3,
         technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
-         liveDemo: 'https://pacemotor.com/',
+        liveDemo: 'https://pacemotor.com/',
         github: '#',
     },
     {
@@ -58,7 +58,7 @@ const PROJECTS = [
         desc: 'A custom Shopify theme developed for a security and safety brand, featuring structured product and service sections, responsive layouts, and a tailored e-commerce experience built around the client’s requirements.',
         image: work12,
         technologies: ['Shopify', 'Liquid', 'HTML5', 'CSS3'],
-         liveDemo: 'https://livesafene.com/',
+        liveDemo: 'https://livesafene.com/',
         github: '#'
     },
     {
@@ -67,7 +67,7 @@ const PROJECTS = [
         desc: 'A professional Wix website developed for a managed IT services company, featuring service-focused sections, client testimonials, business statistics, partner showcases, and responsive layouts designed to build trust and generate consultations.',
         image: work16,
         technologies: ['Wix', 'Wix Editor', 'Responsive Design'],
-         liveDemo: 'https://www.run.biz/',
+        liveDemo: 'https://www.run.biz/',
         github: '#'
     },
     {
@@ -76,7 +76,7 @@ const PROJECTS = [
         desc: 'A custom Shopify theme developed for a fashion and clothing brand, featuring a modern, responsive storefront with tailored product sections, collection layouts, and a branded shopping experience built to the client’s requirements.',
         image: work13,
         technologies: ['Shopify', 'Liquid', 'HTML5', 'CSS3'],
-         liveDemo: 'https://fresa.com/',
+        liveDemo: 'https://fresa.com/',
         github: '#'
     },
     {
@@ -94,7 +94,7 @@ const PROJECTS = [
         desc: 'Developed a custom WordPress theme for a transportation and trucking company, creating responsive layouts and user-friendly navigation. Customized the website structure and functionality to meet the client’s business requirements.',
         image: work5,
         technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
-         liveDemo: 'https://linzertrucklines.com/',
+        liveDemo: 'https://linzertrucklines.com/',
         github: '#'
     },
     {
@@ -103,7 +103,7 @@ const PROJECTS = [
         desc: 'A professional Wix website developed for a full-service marketing and advertising agency, featuring branding, advertising, website design, publications, and service-focused sections with a responsive layout and engaging visual presentation.',
         image: work15,
         technologies: ['Wix', 'Wix Editor', 'Responsive Design'],
-         liveDemo: 'https://www.royalflushadvertising.com/',
+        liveDemo: 'https://www.royalflushadvertising.com/',
         github: '#'
     },
     {
@@ -112,7 +112,7 @@ const PROJECTS = [
         desc: 'A custom WordPress website developed for an author, paranormal researcher, speaker, and podcast host. Built with dedicated sections for books, podcasts, events, speaking engagements, media, and blog content, with a responsive and engaging user experience.',
         image: work11,
         technologies: ['WordPress', 'PHP', 'HTML5', 'ACF'],
-         liveDemo: 'https://nicoledstrickland.com/',
+        liveDemo: 'https://nicoledstrickland.com/',
         github: '#'
     },
     {
@@ -217,89 +217,89 @@ const Work = () => {
         })
     }
 
-  return (
-    <section
-    id="work"
-    ref={sectionRef}
-    className='lg:min-h-screen bg-zinc-950 text-white py-24 sm:py-28 lg:py-16 px-4 sm:px-6 font-ubuntu scroll-m-16 overflow-hidden relative'>
+    return (
+        <section
+            id="work"
+            ref={sectionRef}
+            className='lg:min-h-screen bg-zinc-950 text-white py-24 sm:py-28 lg:py-16 px-4 sm:px-6 font-ubuntu scroll-m-16 overflow-hidden relative'>
 
-        <div className='absolute top-1/3 left-1/2 -translate-x-1/2 w-64 sm:w-80 lg:w-96 h-64 sm:h-80 lg:h-80 bg-yellow-400/20 rounded-full blur-3xl pointer-events-none'>
-        </div>
+            <div className='absolute top-1/3 left-1/2 -translate-x-1/2 w-64 sm:w-80 lg:w-96 h-64 sm:h-80 lg:h-80 bg-yellow-400/20 rounded-full blur-3xl pointer-events-none'>
+            </div>
 
-        <div className='max-w-6xl mx-auto relative z-10'>
+            <div className='max-w-6xl mx-auto relative z-10'>
 
-            <motion.div
-            initial={{ opacity: 0, y: -30 }}
-            animate={ isInView ? { opacity: 1, y: 0} : {}}
-            transition={{ duration: 0.6 }}
-            className='text-center mb-8 lg:mb-10'>
-
-                <motion.p
-                initial={{ opacity: 0}}
-                animate={ isInView ? { opacity: 1} : {}}
-                transition={{ duration: 0.2 }}
-                className='text-yellow-400 font-semibold text-xs sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-2'>
-                    My Portfolio
-                </motion.p>
-                <motion.h2
-                initial={{ opacity: 0, y: 20}}
-                animate={ isInView ? { opacity: 1, y: 0} : {}}
-                transition={{ duration: 0.3 }}
-                className='text-4xl font-bold'>
-                    Featured {' '}
-                    <span className='bg-linear-to-r from-yellow-400 to-yellow-500 bg-clip-text text-transparent'>
-                        Projects
-                    </span>
-                </motion.h2>
                 <motion.div
+                    initial={{ opacity: 0, y: -30 }}
+                    animate={isInView ? { opacity: 1, y: 0 } : {}}
+                    transition={{ duration: 0.6 }}
+                    className='text-center mb-8 lg:mb-10'>
+
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={isInView ? { opacity: 1 } : {}}
+                        transition={{ duration: 0.2 }}
+                        className='text-yellow-400 font-semibold text-xs sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-2'>
+                        My Portfolio
+                    </motion.p>
+                    <motion.h2
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={isInView ? { opacity: 1, y: 0 } : {}}
+                        transition={{ duration: 0.3 }}
+                        className='text-4xl font-bold'>
+                        Featured {' '}
+                        <span className='bg-linear-to-r from-yellow-400 to-yellow-500 bg-clip-text text-transparent'>
+                            Projects
+                        </span>
+                    </motion.h2>
+                    <motion.div
                         initial={{ scaleX: 0 }}
                         animate={isInView ? { scaleX: 1 } : {}}
                         transition={{ duration: 0.6, delay: 0.4 }}
                         className='w-20 sm:w-24 h-1 bg-yellow-400 mx-auto mt-4 rounded-full' />
-            </motion.div>
+                </motion.div>
 
-            <div className='relative overflow-hidden cursor-grab active:cursor-grabbing touch-pan-y select-none'
-            onPointerDown={handlePointerDown}
-            onPointerMove={handlePointerMove}
-            onPointerUp={handlePointerUp}
-            onPointerCancel={handlePointerCancel}
-            onPointerLeave={handlePointerCancel}>
+                <div className='relative overflow-hidden cursor-grab active:cursor-grabbing touch-pan-y select-none'
+                    onPointerDown={handlePointerDown}
+                    onPointerMove={handlePointerMove}
+                    onPointerUp={handlePointerUp}
+                    onPointerCancel={handlePointerCancel}
+                    onPointerLeave={handlePointerCancel}>
 
-                <div
-                className='flex gap-6'
-                style={{
-                    transform: `translateX(calc(-${translatePercentage}% - ${translateGap}px - ${dragOffset}px))`,
-                    transition: isDragging ? 'none' : 'transform 0.6s ease-in-out'
-                }}>
-                    {PROJECTS.map((project, index) => (
-                         <motion.div
-                         key={project.id}
-                         custom={index}
-                         variants={cardVariants}
-                         initial='hidden'
-                         animate={isInView ? 'visible' : 'hidden'}
-                         className='shrink-0 group'
-                         style={{ width: cardWidth }}>
+                    <div
+                        className='flex gap-6'
+                        style={{
+                            transform: `translateX(calc(-${translatePercentage}% - ${translateGap}px - ${dragOffset}px))`,
+                            transition: isDragging ? 'none' : 'transform 0.6s ease-in-out'
+                        }}>
+                        {PROJECTS.map((project, index) => (
+                            <motion.div
+                                key={project.id}
+                                custom={index}
+                                variants={cardVariants}
+                                initial='hidden'
+                                animate={isInView ? 'visible' : 'hidden'}
+                                className='shrink-0 group'
+                                style={{ width: cardWidth }}>
 
-                            <div className='bg-zinc-800/30 backdrop-blur-sm rounded-xl sm:rounded-2xl overflow-hidden border border-zinc-700/30 hover:border-yellow-400/50 shadow-lg hover:shadow-lg hover:shadow-yellow-400/10 transition-all duration-300 h-full'>
+                                <div className='bg-zinc-800/30 backdrop-blur-sm rounded-xl sm:rounded-2xl overflow-hidden border border-zinc-700/30 hover:border-yellow-400/50 shadow-lg hover:shadow-lg hover:shadow-yellow-400/10 transition-all duration-300 h-full'>
 
-                                <div className='relative overflow-hidden h-40 sm:h-40 lg:h-44'>
-                                    <img src={project.image} alt={project.title} loading='lazy' decoding='async' className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-400 pointer-events-none' draggable='false' />
+                                    <div className='relative overflow-hidden h-40 sm:h-40 lg:h-44'>
+                                        <img src={project.image} alt={project.title} loading='lazy' decoding='async' className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-400 pointer-events-none' draggable='false' />
 
-                                    <div className='absolute inset-0 bg-linear-to-t from-zinc-950 via-transparent to-transparent opacity-60'>
+                                        <div className='absolute inset-0 bg-linear-to-t from-zinc-950 via-transparent to-transparent opacity-60'>
+                                        </div>
+                                        <div className='absolute top-3 right-3 flex gap-2'>
+                                            <a href={project.github} target='_blank' rel='noopener noreferrer' aria-label='GitHub' className='p-2 bg-zinc-900/80 backdrop-blur-sm rounded-full hover:bg-yellow-400 hover:text-zinc-950 transition-all duration-300'
+                                                onPointerDown={(e) => e.stopPropagation()}>
+                                                <FaGithub className='w-4 h-4' />
+                                            </a>
+                                            <a href={project.liveDemo} target='_blank' rel='noopener noreferrer' aria-label='Live demo' className='p-2 bg-zinc-900/80 backdrop-blur-sm rounded-full hover:bg-yellow-400 hover:text-zinc-950 transition-all duration-300'
+                                                onPointerDown={(e) => e.stopPropagation()}>
+                                                <FaExternalLinkAlt className='w-4 h-4' />
+                                            </a>
+                                        </div>
+
                                     </div>
-                                    <div className='absolute top-3 right-3 flex gap-2'>
-                                        <a href={project.github} target='_blank' rel='noopener noreferrer' aria-label='GitHub' className='p-2 bg-zinc-900/80 backdrop-blur-sm rounded-full hover:bg-yellow-400 hover:text-zinc-950 transition-all duration-300'
-                                        onPointerDown={ (e) => e.stopPropagation()}>
-                                            <FaGithub className='w-4 h-4'/>
-                                        </a>
-                                        <a href={project.liveDemo} target='_blank' rel='noopener noreferrer' aria-label='Live demo' className='p-2 bg-zinc-900/80 backdrop-blur-sm rounded-full hover:bg-yellow-400 hover:text-zinc-950 transition-all duration-300'
-                                        onPointerDown={ (e) => e.stopPropagation()}>
-                                            <FaExternalLinkAlt className='w-4 h-4'/>
-                                        </a>
-                                    </div>
-
-                                </div>
                                     <div className='p-4 sm:p-5'>
                                         <h3 className='text-base sm:text-lg font-bold mb-2 text-white group-hover:text-yellow-400 transition-colors duration-300'>{project.title}</h3>
                                         <p className='text-zinc-400 text-xs sm:text-sm mb-4 leading-relaxed'>
@@ -308,40 +308,39 @@ const Work = () => {
                                         <div className='flex flex-wrap gap-1.5 sm:gap-2'>
                                             {project.technologies.map((tech, techIndex) => (
                                                 <span
-                                                key={techIndex}
-                                                className='px-2 sm:px-2.5 py-1 bg-zinc-800/50 text-zinc-300 text-[10px] sm:text-xs rounded-full border border-zinc-700/30 whitespace-nowrap'>
+                                                    key={techIndex}
+                                                    className='px-2 sm:px-2.5 py-1 bg-zinc-800/50 text-zinc-300 text-[10px] sm:text-xs rounded-full border border-zinc-700/30 whitespace-nowrap'>
                                                     {tech}
                                                 </span>
                                             ))}
                                         </div>
                                     </div>
-                            </div>
+                                </div>
 
-                         </motion.div>
-                    ))}
+                            </motion.div>
+                        ))}
+                    </div>
+
                 </div>
-
-            </div>
-                    <div className='flex justify-center items-center gap-2 mt-4 sm:mt-5'>
-                        {Array.from({ length: totalPages }).map((_, index) => (
-                            <button
+                <div className='flex justify-center items-center gap-2 mt-4 sm:mt-5'>
+                    {Array.from({ length: totalPages }).map((_, index) => (
+                        <button
                             key={index}
                             onClick={() => goToPage(index)}
                             aria-label={`Go To Page ${index + 1}`}
                             className={`h-2 rounded-full transition-all duration-300 
-                            ${
-                                currentPage === index
-                                ? 'w-8 bg-yellow-400'
-                                : 'w-2 bg-zinc-600 hover:bg-zinc-400'
-                            }`}>
+                            ${currentPage === index
+                                    ? 'w-8 bg-yellow-400'
+                                    : 'w-2 bg-zinc-600 hover:bg-zinc-400'
+                                }`}>
 
-                            </button>
-                        ))}
-                    </div>
-        </div>
+                        </button>
+                    ))}
+                </div>
+            </div>
 
-    </section>
-  )
+        </section>
+    )
 }
 
 export default Work
